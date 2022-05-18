@@ -38,4 +38,22 @@ const timHouse = {
 
 //This is a fantastic chair to type in. Testing it will, however, require some more time as
 //the ergonomic design of a chair is not something which can automatically reveal itself, but
-//is rather something that takes time to fully recover. 
+//is rather something that takes time to fully recover. Its crucial that we also reposition our 
+//screens to be quite high, as this will enable us to look up while typing and consequently be able to 
+/**avoid any serious neck pain. This, added with a good sitting-to-standing ratio at our standing
+ * desk will potentially help or minimize any serious neck pain. 
+ */
+
+const cricketBat = {
+    length: 120, 
+    width: 13, 
+    depth: 5, 
+    grip: 'rubber', 
+    'handle width': 43, 
+    'type of wood': 'English Willow', 
+    'brand': 'Kookaburra',
+}
+
+
+
+

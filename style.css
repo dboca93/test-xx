@@ -1,0 +1,30 @@
+/*Here, we intend to write some CSS
+for our the https://1linelayouts.glitch.me/ tasks, 
+and experiment with them to the point of being able to amend the 
+basic paradigm which they have presented for us. */
+
+.parent {
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: center;
+    outline: 1px solid black;
+}
+.box {
+    background-color: lightpink; 
+    flex: 1 1 200px;
+    margin: 5px;
+    height: 300px;
+}
+/* now lets research on how to put images onto these boxes, 
+and seeing if there is a cool way that they stretch; or be
+'responsive' when their size changes.
+
+We could also place media q's on the image and reduce the 
+size even further on smaller screens. Or we could potentially
+change the flex-direction on smaller screens to  row; which
+would bette help us portray the images.*/
+.box img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
