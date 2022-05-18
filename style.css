@@ -1,7 +1,9 @@
 /*Here, we intend to write some CSS
 for our the https://1linelayouts.glitch.me/ tasks, 
 and experiment with them to the point of being able to amend the 
-basic paradigm which they have presented for us. */
+basic paradigm which they have presented for us. 
+This specific layout is called the deconstructed pancake. 
+Please add to CSS Cue Cards later.*/
 
 .parent {
     display: flex; 
@@ -28,3 +30,12 @@ would bette help us portray the images.*/
     height: 100%; 
     object-fit: cover;
 }
+@media only screen and (max-width: 450px){
+    .parent {
+        flex-wrap: wrap;
+    }
+}
+/* we have achieve what we want, which is to create a set of responsive images 
+which change shape naturally, and which break into rows only 
+on mobile screen sizes which we want. Also we have done this using the 
+object-fit method. 

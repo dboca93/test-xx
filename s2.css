@@ -1,0 +1,43 @@
+/*This is our stylesheet for ss.html. We will call it s2.css 
+
+Here, our goals are to use the Sidebar Says template and use the main section to have an image
+and to alsouse the panel section on its left to act as an image description, in a similar way 
+that a description may describe a painting in a gallery.
+
+The key feature used sees the sidebar instrumentalized via the brackets and the rest handled 
+by the later statement.*/
+
+
+.main__container {
+    display: grid;
+    outline: 1px solid black;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    margin: 100px auto;
+    max-width: 70%;
+}
+
+.sidebar {
+    background-color: lightskyblue;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic;
+    text-align: center; 
+    padding: 5px;
+    font-size: 14px;
+}
+.sh {
+    font-weight: bold; 
+    font-style: normal;
+}
+
+.content__area {
+    background-color: lightcoral;
+    height: 300px; 
+    margin: 15px; 
+    margin-left: 0;
+}
+.content__area img {
+    object-fit: cover;
+    width: 100%; 
+    height: 100%; 
+}
