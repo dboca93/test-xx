@@ -5,7 +5,9 @@ and to alsouse the panel section on its left to act as an image description, in 
 that a description may describe a painting in a gallery.
 
 The key feature used sees the sidebar instrumentalized via the brackets and the rest handled 
-by the later statement.*/
+by the later statement.
+
+Key lines of Code: 16; 47-49*/
 
 
 .main__container {
@@ -24,6 +26,11 @@ by the later statement.*/
     text-align: center; 
     padding: 5px;
     font-size: 14px;
+
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .sh {
     font-weight: bold; 
@@ -35,6 +42,7 @@ by the later statement.*/
     height: 300px; 
     margin: 15px; 
     margin-left: 0;
+    
 }
 .content__area img {
     object-fit: cover;
